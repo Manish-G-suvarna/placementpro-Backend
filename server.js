@@ -36,6 +36,10 @@ app.use('/api/notifications', notificationsRoutes);
 app.use('/api/dashboard', dashboardRoutes);
 
 // ── Health check ───────────────────────────────────────
+app.get('/', (req, res) => {
+    res.json({ status: 'ok', message: 'PlacementPro API is running', timestamp: new Date().toISOString() });
+});
+
 app.get('/api/health', (req, res) => {
     res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
@@ -46,8 +50,13 @@ app.use((err, req, res, next) => {
     res.status(500).json({ error: 'Internal server error' });
 });
 
-// ── Start ──────────────────────────────────────────────
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-    console.log(`🚀 PlacementPro API running on http://localhost:${PORT}`);
-});
+// ── Start (only when running locally, not on Vercel) ───
+if (process.env.VERCEL !== '1') {
+    const PORT = process.env.PORT || 5000;
+    app.listen(PORT, () => {
+        console.log(`🚀 PlacementPro API running on http://localhost:${PORT}`);
+    });
+}
+
+// ── Export for Vercel serverless ────────────────────────
+module.exports = app;
