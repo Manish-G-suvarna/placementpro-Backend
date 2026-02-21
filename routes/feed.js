@@ -11,8 +11,18 @@ router.get('/', optionalAuth, async (req, res) => {
         const limit = Math.min(50, Math.max(1, parseInt(req.query.limit) || 10));
         const skip = (page - 1) * limit;
         const type = req.query.type || undefined;
+        const search = req.query.search || undefined;
 
-        const where = type ? { type } : {};
+        const where = {};
+        if (type) where.type = type;
+        if (search) {
+            where.OR = [
+                { title: { contains: search } },
+                { description: { contains: search } },
+                { tags: { contains: search } },
+                { location: { contains: search } },
+            ];
+        }
 
         // Total count
         const total = await prisma.posts.count({ where });
