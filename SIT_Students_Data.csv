@@ -1,0 +1,101 @@
+reg_id,full_name,gender,branch,cgpa,email_id,ph_no,backlogs,skills,10th_percentage,12th_percentage,dob
+SITCS001,Vihaan Nair,Male,Computer Science,5.75,vihaan.nair1@sit.edu.in,6497061905,4,"Cybersecurity, Problem Solving, Web Development, Leadership",85.99,71.08,26-04-1995
+SITIT002,Manish ,Male,Information Technology,9.87,manishgsuvarna44@gmail.com,9481853149,0,"SQL, Cloud Computing,Machine Learning, Communication",98.7,80.19,12-04-1995
+SITCS003,Vihaan Reddy,Male,Computer Science,9,vihaan.reddy3@sit.edu.in,8724963229,1,"Cybersecurity, Data Analysis, Web Development, SQL, Communication",76.76,74.86,28-04-2000
+SITCS004,Saanvi Das,Female,Computer Science,9.16,saanvi.das4@sit.edu.in,8822171846,4,"Web Development, Data Analysis",63.74,86.28,24-12-1997
+SITEE005,Rohan Iyer,Male,Electrical,6.9,rohan.iyer5@sit.edu.in,6094073074,5,"Cybersecurity, Communication, Leadership",77.25,84.59,18-04-1998
+SITEC006,Ishaan Joshi,Male,Electronics & Communication,9.3,ishaan.joshi6@sit.edu.in,7727807583,3,"C++, Cybersecurity, Leadership, Python",92.68,78,27-12-1995
+SITEC007,Saanvi Reddy,Female,Electronics & Communication,8.95,saanvi.reddy7@sit.edu.in,7735730143,5,"Problem Solving, Python, Communication",95.21,73.2,20-09-2004
+SITCS008,Ishaan Gupta,Male,Computer Science,9.71,ishaan.gupta8@sit.edu.in,7403625359,5,"Machine Learning, Cloud Computing, Communication, Java, SQL",74.72,67.76,17-03-2000
+SITEC009,Vihaan Kumar,Male,Electronics & Communication,9.17,vihaan.kumar9@sit.edu.in,6795372207,3,"Web Development, Machine Learning, Communication",83.56,73.53,03-03-2005
+SITIT010,Harshini,Female,Information Technology,9.77,kjharshini28@gmail.com,8277351798,0,"Machine Learning, SQL, Communication, Cloud Computing",90,80.25,07-07-1998
+SITEE011,Reyansh Patel,Male,Electrical,7.8,reyansh.patel11@sit.edu.in,6102254588,3,"Leadership, Cloud Computing",77.73,65.34,01-11-1995
+SITCS012,Krishna Patel,Male,Computer Science,5.74,krishna.patel12@sit.edu.in,7064406486,3,"Cybersecurity, Java, Machine Learning, Problem Solving",94.82,94.53,08-07-1999
+SITEC013,Aarav Patel,Male,Electronics & Communication,6.42,aarav.patel13@sit.edu.in,6815195605,1,"Python, Communication, C++, Java",69.98,91.16,12-07-1998
+SITCS014,Vivaan Verma,Male,Computer Science,7.31,vivaan.verma14@sit.edu.in,7162166912,1,"Python, Cloud Computing",91.88,81.18,05-11-1998
+SITCS015,Kavya Reddy,Female,Computer Science,7.6,kavya.reddy15@sit.edu.in,6844730888,5,"Web Development, Problem Solving, Python",86.03,96.02,01-08-2005
+SITIT016,Rohan Mishra,Male,Information Technology,8.3,rohan.mishra16@sit.edu.in,8136636150,5,"Problem Solving, Communication, Machine Learning",89.82,77.16,14-07-1997
+SITEC017,Abhishek ,Male,Information Technology,9.55,abhisheksit27@gmail.com,7892208908,0,"Cloud Computing, Communication, SQL, Machine Learning",85,99,14-12-2002
+SITCE018,Pooja Gupta,Female,Civil,7.74,pooja.gupta18@sit.edu.in,6837745252,2,"Data Analysis, Communication",92.65,86.83,20-12-2001
+SITME019,Meera Joshi,Female,Mechanical,7.87,meera.joshi19@sit.edu.in,8242080267,3,"C++, Communication, Cybersecurity",99.76,77.69,26-04-2004
+SITEC020,Vihaan Mishra,Male,Electrical,5.88,vihaan.mishra20@sit.edu.in,6887180853,3,"Cybersecurity, C++, Machine Learning, Leadership",62.2,79.71,05-11-1997
+SITCE021,Dhanya,Female,Information Technology,9.53,kotiandhanya18@gmail.com,9148545722,0,"Communication, Machine Learning, Cloud Computing, SQL",76.6,92.66,04-12-2000
+SITEE022,Aditya Gupta,Male,Electrical,6.05,aditya.gupta22@sit.edu.in,7182709115,5,"C++, Cloud Computing, Leadership, SQL, Communication",64.61,96.54,23-12-1999
+SITCS023,Saanvi Nair,Female,Computer Science,7.93,saanvi.nair23@sit.edu.in,9740156314,3,"Communication, Java, Cybersecurity",72.61,77.81,12-01-2006
+SITIT024,Vihaan Kapoor,Male,Information Technology,5.98,vihaan.kapoor24@sit.edu.in,9503415286,4,"Python, Cybersecurity, Cloud Computing, Communication, SQL",67.84,87.71,09-10-1996
+SITEC025,Reyansh Kumar,Male,Electronics & Communication,7.29,reyansh.kumar25@sit.edu.in,9239026278,1,"Web Development, Problem Solving, Java, Python",95.71,79.94,18-04-2000
+SITCS026,Vihaan Verma,Male,Computer Science,8.99,vihaan.verma26@sit.edu.in,7708179975,4,"Machine Learning, Leadership",69.48,76.38,25-03-1995
+SITEE027,Aarav Kapoor,Male,Electrical,6.61,aarav.kapoor27@sit.edu.in,9672573143,5,"Cybersecurity, Data Analysis, Java",93.93,73.59,16-09-1996
+SITCE028,Vivaan Gupta,Male,Civil,8.75,vivaan.gupta28@sit.edu.in,7345793330,0,"Machine Learning, Cloud Computing, Cybersecurity, SQL, Web Development",62.44,70.1,12-01-2003
+SITCE029,Ishaan Gupta,Male,Civil,8.13,ishaan.gupta29@sit.edu.in,7468611171,1,"Machine Learning, SQL",84.26,65.35,06-11-1996
+SITCS030,Vivaan Gupta,Male,Computer Science,5.79,vivaan.gupta30@sit.edu.in,8055444497,3,"C++, Data Analysis, Python, Leadership, Cloud Computing",84.89,85.98,26-06-2000
+SITEC031,Krishna Gupta,Male,Electronics & Communication,7.71,krishna.gupta31@sit.edu.in,9661953411,0,"Web Development, Problem Solving, Cybersecurity, Data Analysis, Python",73.05,81.4,24-10-1996
+SITEC032,Saanvi Patel,Female,Electronics & Communication,7.87,saanvi.patel32@sit.edu.in,7165535116,5,"SQL, Java",97.41,76.04,21-02-1996
+SITEE033,Reyansh Iyer,Male,Electrical,7.19,reyansh.iyer33@sit.edu.in,7631170127,1,"C++, Cloud Computing, Cybersecurity",78.35,77.65,01-10-2002
+SITCS034,Ishaan Kapoor,Male,Computer Science,9.6,ishaan.kapoor34@sit.edu.in,8304758507,1,"Machine Learning, Cybersecurity, Java",73.31,73.7,18-01-1997
+SITIT035,Sai Joshi,Male,Information Technology,6.73,sai.joshi35@sit.edu.in,6374582519,5,"Problem Solving, SQL, C++, Web Development, Cybersecurity",84.26,65.23,26-06-1998
+SITME036,Pooja Reddy,Female,Mechanical,7.58,pooja.reddy36@sit.edu.in,6299985377,0,"Data Analysis, C++, Java",63.16,97.87,10-09-1999
+SITCE037,Ira Nair,Female,Civil,8.77,ira.nair37@sit.edu.in,8275315436,2,"Cybersecurity, Data Analysis, Python, Machine Learning",73.35,97.38,19-03-2001
+SITEC038,Aditya Reddy,Male,Electronics & Communication,7.93,aditya.reddy38@sit.edu.in,9975679343,0,"C++, Java, Machine Learning, Data Analysis, Cloud Computing",71.33,86.65,26-12-1998
+SITEC039,Ira Kapoor,Female,Electronics & Communication,9.59,ira.kapoor39@sit.edu.in,7412964708,1,"Java, Machine Learning, C++",90.88,65.37,27-03-1998
+SITEE040,Kavya Kumar,Female,Electrical,9.87,kavya.kumar40@sit.edu.in,8001400276,2,"Java, Leadership, Cybersecurity, Problem Solving, Machine Learning",73.45,61.66,10-09-1997
+SITEE041,Vivaan Singh,Male,Electrical,8.39,vivaan.singh41@sit.edu.in,8635062273,1,"Cloud Computing, Data Analysis, Java, Machine Learning, Python",92.43,72.49,01-02-2001
+SITCE042,Diya Singh,Female,Civil,6.74,diya.singh42@sit.edu.in,7404532804,4,"SQL, Web Development",70.13,87.77,21-07-2005
+SITIT043,Vivaan Das,Male,Information Technology,8.44,vivaan.das43@sit.edu.in,9851923706,1,"Python, Java",87.09,73.51,11-02-2000
+SITCS044,Aisha Singh,Female,Computer Science,9.85,aisha.singh44@sit.edu.in,8702375814,3,"Machine Learning, Web Development, C++, Cloud Computing, Leadership",83.15,76.36,17-01-1997
+SITEE045,Ira Gupta,Female,Electrical,6.11,ira.gupta45@sit.edu.in,8613874817,4,"Cybersecurity, SQL",75.08,73.77,16-10-2000
+SITME046,Aditya Reddy,Male,Mechanical,6.94,aditya.reddy46@sit.edu.in,6471993969,1,"Web Development, Data Analysis, Problem Solving",68.74,85.53,15-11-1999
+SITCE047,Arjun Verma,Male,Civil,7.78,arjun.verma47@sit.edu.in,6316388637,2,"Data Analysis, Machine Learning, Cloud Computing, Python",76.12,83.16,18-10-2002
+SITME048,Vihaan Joshi,Male,Mechanical,5.88,vihaan.joshi48@sit.edu.in,6069837819,1,"Data Analysis, Problem Solving, Leadership, Communication, Machine Learning",92.42,79.29,02-07-1999
+SITEC049,Arjun Das,Male,Electronics & Communication,8.18,arjun.das49@sit.edu.in,6033987381,3,"Web Development, Leadership, Machine Learning, Java",81.72,75.99,01-09-1999
+SITCE050,Saanvi Kapoor,Female,Civil,7.12,saanvi.kapoor50@sit.edu.in,9267422158,4,"SQL, Python",88.53,80.51,07-04-1995
+SITEE051,Krishna Patel,Male,Electrical,9.16,krishna.patel51@sit.edu.in,8891970169,2,"Java, C++, Cloud Computing, SQL, Python",60.23,90.81,07-12-2002
+SITCS052,Arjun Mehta,Male,Computer Science,8.37,arjun.mehta52@sit.edu.in,7125361202,3,"Cybersecurity, Communication, Machine Learning",95.53,99.33,07-11-2000
+SITCE053,Sai Iyer,Male,Civil,7.53,sai.iyer53@sit.edu.in,7685685633,1,"Java, Problem Solving",70.29,76.43,03-12-1999
+SITCE054,Ananya Mehta,Female,Civil,9.84,ananya.mehta54@sit.edu.in,7524083590,2,"Cybersecurity, C++, Python, Web Development",97.59,78.98,25-04-1995
+SITEC055,Diya Gupta,Female,Electronics & Communication,8.46,diya.gupta55@sit.edu.in,9185117729,2,"Communication, Machine Learning, SQL",93.67,79.01,20-05-1995
+SITEE056,Aditya Sharma,Male,Electrical,8.33,aditya.sharma56@sit.edu.in,8806274814,2,"Cloud Computing, Machine Learning, Leadership, Data Analysis, Cybersecurity",63.29,88.08,19-12-1998
+SITCE057,Pooja Gupta,Female,Civil,5.7,pooja.gupta57@sit.edu.in,6846170910,4,"Cybersecurity, Problem Solving, Java, Python, C++",80.12,92.35,26-05-1995
+SITME058,Vivaan Iyer,Male,Mechanical,6.45,vivaan.iyer58@sit.edu.in,7908289029,1,"Machine Learning, Problem Solving, Communication, Data Analysis, C++",74.28,93.76,27-07-2000
+SITCS059,Aditya Kumar,Male,Computer Science,7.04,aditya.kumar59@sit.edu.in,6607683101,4,"Leadership, SQL, C++, Cybersecurity",63.9,70.21,24-08-2004
+SITIT060,Aarav Reddy,Male,Information Technology,6.21,aarav.reddy60@sit.edu.in,8314756198,3,"Data Analysis, Communication, SQL, Leadership, C++",92.33,73.8,30-09-2003
+SITCE061,Aditya Rao,Male,Civil,8.96,aditya.rao61@sit.edu.in,8211726603,5,"Problem Solving, Leadership",92.77,80.14,23-12-2003
+SITEE062,Rohan Sharma,Male,Electrical,9.51,rohan.sharma62@sit.edu.in,7196575844,3,"Machine Learning, Cloud Computing, C++, Python",70.53,89.98,12-09-2003
+SITEC063,Aisha Joshi,Female,Electronics & Communication,8.51,aisha.joshi63@sit.edu.in,8814870691,1,"Java, Data Analysis",98.47,87.56,13-03-2001
+SITIT064,Meera Verma,Female,Information Technology,6.73,meera.verma64@sit.edu.in,9719733143,0,"Cybersecurity, Leadership, Java, SQL",69.59,89.04,11-02-2002
+SITEC065,Arjun Singh,Male,Electronics & Communication,6.8,arjun.singh65@sit.edu.in,7677535050,0,"Python, Problem Solving, C++, Cloud Computing",93.12,63.58,25-08-1995
+SITME066,Diya Sharma,Female,Mechanical,7.16,diya.sharma66@sit.edu.in,8018528068,5,"Cloud Computing, Machine Learning, Web Development, Communication, C++",61.49,85.07,01-12-1995
+SITIT067,Aditya Iyer,Male,Information Technology,8.17,aditya.iyer67@sit.edu.in,6722531344,5,"Data Analysis, Web Development, C++",71.52,83.82,19-10-2001
+SITCS068,Meera Rao,Female,Computer Science,7.74,meera.rao68@sit.edu.in,7339710579,5,"Cybersecurity, Cloud Computing",88.68,81.25,21-06-1998
+SITCS069,Sneha Iyer,Female,Computer Science,6.35,sneha.iyer69@sit.edu.in,6433959455,0,"Problem Solving, Cybersecurity, Communication",70.89,97.96,06-01-2003
+SITEC070,Kavya Das,Female,Electronics & Communication,7.92,kavya.das70@sit.edu.in,7394481057,4,"Data Analysis, Java, Machine Learning, Python, Cloud Computing",71.97,82.96,15-04-1997
+SITEE071,Krishna Singh,Male,Electrical,5.61,krishna.singh71@sit.edu.in,9596735162,2,"Problem Solving, SQL, Web Development, Leadership, Communication",77.35,74.73,21-09-2005
+SITIT072,Sneha Mishra,Female,Information Technology,8.27,sneha.mishra72@sit.edu.in,8415619282,1,"Web Development, Cloud Computing",79.87,83.28,07-06-2005
+SITIT073,Sai Patel,Male,Information Technology,6.23,sai.patel73@sit.edu.in,9268390897,2,"Leadership, C++, Python",88.27,65.2,27-09-2001
+SITEE074,Kavya Sharma,Female,Electrical,7.02,kavya.sharma74@sit.edu.in,6125813630,4,"Java, Web Development",86.63,97.83,10-04-2002
+SITEE075,Saanvi Iyer,Female,Electrical,8.76,saanvi.iyer75@sit.edu.in,6324446288,1,"SQL, Leadership, C++, Cloud Computing, Java",66.1,84.45,03-11-1998
+SITEC076,Ira Kumar,Female,Electronics & Communication,6.86,ira.kumar76@sit.edu.in,9233933228,0,"SQL, Cloud Computing, Cybersecurity, Java, Data Analysis",83.03,86.7,09-08-2001
+SITIT077,Meera Reddy,Female,Information Technology,5.6,meera.reddy77@sit.edu.in,7303720887,4,"Communication, Data Analysis",94.89,61.87,13-09-2003
+SITCS078,Saanvi Verma,Female,Computer Science,8.11,saanvi.verma78@sit.edu.in,6467569253,0,"Data Analysis, Cloud Computing, Web Development, Leadership, Machine Learning",99.69,98.35,21-12-1997
+SITEE079,Aditya Kapoor,Male,Electrical,6.94,aditya.kapoor79@sit.edu.in,9604888978,5,"Leadership, Cybersecurity, SQL",81.38,74.64,14-11-2001
+SITCE080,Vihaan Mishra,Male,Civil,8.82,vihaan.mishra80@sit.edu.in,6918345225,5,"Python, Communication, Machine Learning, Web Development, Cloud Computing",68.02,76.98,10-08-2000
+SITCS081,Vivaan Iyer,Male,Computer Science,8.01,vivaan.iyer81@sit.edu.in,9263173133,3,"SQL, Leadership, Communication, Cloud Computing, Machine Learning",66.78,68.87,17-02-2004
+SITME082,Reyansh Joshi,Male,Mechanical,6.62,reyansh.joshi82@sit.edu.in,6442338599,4,"Leadership, Cybersecurity, SQL, Data Analysis",94.9,71.76,05-04-1999
+SITIT083,Pooja Mishra,Female,Information Technology,8.71,pooja.mishra83@sit.edu.in,7819733017,0,"Problem Solving, SQL, Leadership, Web Development, C++",77.49,80.17,12-01-1997
+SITCS084,Saanvi Kapoor,Female,Computer Science,8.4,saanvi.kapoor84@sit.edu.in,6857901750,1,"Data Analysis, Communication",93.06,77.91,07-08-2003
+SITIT085,Vihaan Joshi,Male,Information Technology,9.02,vihaan.joshi85@sit.edu.in,6093451403,3,"Leadership, Data Analysis, SQL, Communication, C++",72.81,66.6,07-12-2003
+SITEC086,Aarav Verma,Male,Electronics & Communication,8.32,aarav.verma86@sit.edu.in,8953430340,2,"Web Development, Python, Cloud Computing, Leadership",66.49,94.64,28-03-2004
+SITEC087,Arjun Reddy,Male,Electronics & Communication,6.86,arjun.reddy87@sit.edu.in,6620768592,5,"Communication, Leadership, Data Analysis, Java, Python",68.12,77.71,27-01-1996
+SITCE088,Vivaan Mishra,Male,Civil,5.76,vivaan.mishra88@sit.edu.in,8348771136,5,"Communication, C++, Cloud Computing, Web Development, Data Analysis",75.06,92.38,12-04-2004
+SITME089,Aditya Mehta,Male,Mechanical,6.03,aditya.mehta89@sit.edu.in,9221761199,3,"Web Development, Java, SQL, Problem Solving",63.19,67.71,16-03-1996
+SITME090,Vivaan Singh,Male,Mechanical,7.71,vivaan.singh90@sit.edu.in,8723993556,4,"Communication, C++, Python, Machine Learning",63.17,64.39,31-07-1999
+SITCS091,Pooja Mishra,Female,Computer Science,6.16,pooja.mishra91@sit.edu.in,8089948274,0,"Leadership, Java, Machine Learning, Cybersecurity, Problem Solving",63.09,87.83,14-01-2004
+SITEE092,Ananya Joshi,Female,Electrical,6.85,ananya.joshi92@sit.edu.in,8566968634,2,"Java, Data Analysis, Problem Solving, SQL, Leadership",61.39,85.24,30-01-2001
+SITCE093,Aisha Sharma,Female,Civil,9.89,aisha.sharma93@sit.edu.in,6793371316,2,"Problem Solving, C++",97.74,99.45,16-04-1999
+SITEE094,Vivaan Verma,Male,Electrical,9.42,vivaan.verma94@sit.edu.in,8399900523,2,"Communication, SQL, Data Analysis, Java",68.73,60.39,24-09-1996
+SITCS095,Priya Verma,Female,Computer Science,6.02,priya.verma95@sit.edu.in,9158022758,2,"Java, Cybersecurity, Machine Learning, Python, Web Development",95.19,76.11,12-09-1999
+SITEC096,Vihaan Rao,Male,Electronics & Communication,7.51,vihaan.rao96@sit.edu.in,9665228978,3,"SQL, Leadership",62.54,63.67,06-10-2005
+SITME097,Aditya Gupta,Male,Mechanical,6.99,aditya.gupta97@sit.edu.in,8498952893,1,"C++, Machine Learning",88.26,90.42,30-08-2004
+SITCE098,Aarav Singh,Male,Civil,8.02,aarav.singh98@sit.edu.in,8491300426,4,"SQL, Java, Communication, Web Development, Cloud Computing",63.12,73.7,12-09-1999
+SITCE099,Diya Mishra,Female,Civil,8.87,diya.mishra99@sit.edu.in,6949051122,3,"Machine Learning, SQL, Web Development, Leadership, Problem Solving",91.6,83.61,10-01-1996
+SITEE100,Reyansh Reddy,Male,Electrical,9.29,reyansh.reddy100@sit.edu.in,7132656995,1,"Leadership, Data Analysis, C++, Cybersecurity",81.49,73.83,07-03-2004

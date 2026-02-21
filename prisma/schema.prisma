@@ -1,0 +1,204 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model applications {
+  id         Int                  @id @default(autoincrement())
+  post_id    Int
+  user_id    Int
+  status     applications_status? @default(pending)
+  applied_at DateTime             @default(now()) @db.Timestamp(0)
+  posts      posts                @relation(fields: [post_id], references: [id], onDelete: Cascade, onUpdate: Restrict, map: "applications_ibfk_1")
+  users      users                @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: Restrict, map: "applications_ibfk_2")
+
+  @@unique([post_id, user_id])
+  @@index([user_id])
+}
+
+model posts {
+  id           Int            @id @default(autoincrement())
+  user_id      Int
+  type         posts_type
+  title        String         @db.VarChar(300)
+  description  String
+  media_url    String?        @db.VarChar(500)
+  location     String?        @db.VarChar(200)
+  start_date   DateTime?      @db.Date
+  end_date     DateTime?      @db.Date
+  tags         String?        @db.VarChar(500)
+  apply_link   String?        @db.VarChar(500)
+  created_at   DateTime       @default(now()) @db.Timestamp(0)
+  applications applications[]
+  users        users          @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: Restrict, map: "posts_ibfk_1")
+  saved_posts  saved_posts[]
+
+  @@index([user_id])
+}
+
+model saved_posts {
+  id       Int      @id @default(autoincrement())
+  post_id  Int
+  user_id  Int
+  saved_at DateTime @default(now()) @db.Timestamp(0)
+  posts    posts    @relation(fields: [post_id], references: [id], onDelete: Cascade, onUpdate: Restrict, map: "saved_posts_ibfk_1")
+  users    users    @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: Restrict, map: "saved_posts_ibfk_2")
+
+  @@unique([post_id, user_id])
+  @@index([user_id])
+}
+
+model users {
+  id                  Int                  @id @default(autoincrement())
+  name                String               @db.VarChar(100)
+  email               String               @unique(map: "email") @db.VarChar(150)
+  password_hash       String               @db.VarChar(255)
+  role                users_role           @default(user)
+  avatar_url          String?              @db.VarChar(500)
+  bio                 String?
+  phone               String?              @db.VarChar(20)
+  gender              String?              @db.VarChar(10)
+  branch              String?              @db.VarChar(50)
+  register_id         String?              @db.VarChar(30)
+  staff_id            String?              @db.VarChar(30)
+  created_at          DateTime             @default(now()) @db.Timestamp(0)
+  applications        applications[]
+  posts               posts[]
+  saved_posts         saved_posts[]
+  student_profile     student_profiles?
+  drive_applications  drive_applications[]
+  interview_slots     interview_slots[]
+  notifications       notifications[]
+}
+
+model student_profiles {
+  id                Int      @id @default(autoincrement())
+  user_id           Int      @unique
+  reg_id            String   @unique @db.VarChar(30)
+  full_name         String   @db.VarChar(100)
+  gender            String   @db.VarChar(10)
+  branch            String   @db.VarChar(60)
+  cgpa              Float
+  email             String   @db.VarChar(150)
+  phone             String   @db.VarChar(20)
+  backlogs          Int      @default(0)
+  skills            String?
+  tenth_percent     Float?
+  twelfth_percent   Float?
+  dob               String?  @db.VarChar(20)
+  created_at        DateTime @default(now()) @db.Timestamp(0)
+  users             users    @relation(fields: [user_id], references: [id], onDelete: Cascade)
+}
+
+model placement_drives {
+  id                  Int                  @id @default(autoincrement())
+  company             String               @db.VarChar(100)
+  role                String               @db.VarChar(100)
+  package             String               @db.VarChar(30)
+  drive_date          DateTime             @db.Date
+  status              drive_status         @default(upcoming)
+  min_cgpa            Float                @default(0)
+  max_backlogs        Int                  @default(99)
+  allowed_branches    String               @db.VarChar(500)
+  description         String?
+  notified            Boolean              @default(false)
+  created_at          DateTime             @default(now()) @db.Timestamp(0)
+  drive_applications  drive_applications[]
+  interview_slots     interview_slots[]
+}
+
+model drive_applications {
+  id          Int              @id @default(autoincrement())
+  drive_id    Int
+  user_id     Int
+  status      app_status       @default(pending)
+  applied_at  DateTime         @default(now()) @db.Timestamp(0)
+  drives      placement_drives @relation(fields: [drive_id], references: [id], onDelete: Cascade)
+  users       users            @relation(fields: [user_id], references: [id], onDelete: Cascade)
+
+  @@unique([drive_id, user_id])
+  @@index([user_id])
+}
+
+model interview_slots {
+  id              Int              @id @default(autoincrement())
+  drive_id        Int
+  user_id         Int
+  interview_date  DateTime         @db.Date
+  interview_time  String           @db.VarChar(20)
+  location        String?          @db.VarChar(100)
+  notes           String?
+  status          slot_status      @default(scheduled)
+  created_at      DateTime         @default(now()) @db.Timestamp(0)
+  drives          placement_drives @relation(fields: [drive_id], references: [id], onDelete: Cascade)
+  users           users            @relation(fields: [user_id], references: [id], onDelete: Cascade)
+
+  @@unique([drive_id, user_id])
+  @@index([user_id])
+}
+
+model notifications {
+  id         Int               @id @default(autoincrement())
+  user_id    Int
+  type       notification_type @default(drive)
+  title      String            @db.VarChar(200)
+  message    String
+  drive_id   Int?
+  slot_id    Int?
+  is_read    Boolean           @default(false)
+  created_at DateTime          @default(now()) @db.Timestamp(0)
+  users      users             @relation(fields: [user_id], references: [id], onDelete: Cascade)
+
+  @@index([user_id, is_read])
+}
+
+enum notification_type {
+  drive
+  interview
+  general
+}
+
+enum posts_type {
+  event
+  program
+  internship
+  competition
+  announcement
+}
+
+enum applications_status {
+  pending
+  accepted
+  rejected
+}
+
+enum users_role {
+  user
+  organizer
+  admin
+}
+
+enum drive_status {
+  upcoming
+  active
+  completed
+  cancelled
+}
+
+enum app_status {
+  pending
+  shortlisted
+  rejected
+  placed
+}
+
+enum slot_status {
+  scheduled
+  completed
+  cancelled
+}
